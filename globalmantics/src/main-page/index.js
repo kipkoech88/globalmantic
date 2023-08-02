@@ -1,7 +1,8 @@
 import Header from "./Header/Header";
-import {BrowserRouter as Router, Route, Navigation} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import './main-page.css'
 import { useEffect, useMemo, useState } from "react";
+import Featured from "./featured-house";
 
 function App() {
   //useState hook
@@ -9,7 +10,7 @@ function App() {
   //load data
   useEffect(() => {
     const fetchHouses = async()=>{ 
-    const res= await  fetch('http://localhost:3000/houses')
+    const res= await  fetch('/houses.json')
     const houses = await res.json()
     setAllHouses(houses)
     }
@@ -17,18 +18,23 @@ function App() {
   }, [])
 
   //useMemo
-  useMemo(() => {
-    let featuredHouse = {}
+  const featuredHouse = useMemo(() => {
   if (allHouses.length) {
     const randomIndex = Math.floor(Math.random() * allHouses.length)
-    featuredHouse = allHouses[randomIndex]
+    return allHouses[randomIndex]
   }
   },[allHouses])
   
   return (
-    <div className='container'>
-     <Header subtitle="Providing houses all over the world"/>
-    </div>
+    <Router>
+      <div className='container'>
+        <Header subtitle="Providing houses all over the world"/>
+        <Routes>
+          <Route path="/" element={<Featured house={featuredHouse}/>} >
+          </Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

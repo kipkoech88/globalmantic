@@ -1,10 +1,11 @@
 import React from 'react'
+import logo from './GloboLogo.png'
 
 function Header({subtitle}) {
   return (
     <header className='row items-center justify-between'>
       <div className='col-md-5'>
-        <img src="https://www.pluralsight.com/teach/author-tools/globomantics/images/Globo-Logo-white.svg" alt="logo" className="logo"/>
+        <img src={logo} alt="logo" className="logo"/>
       </div>
       <div className='col-md-7 mt-4 subtitle'>
         {subtitle}

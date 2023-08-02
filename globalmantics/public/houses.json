@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "address":"1234 Main St",
+        "country":"USA",
+        "description":"A superb house in the city center close to all the attractions.",
+        "price": 1000000,
+        "photo":"https://images.pexels.com/photos/259602/pexels-photo-259602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+        "id": 2,
+        "address":"5678 Main St",
+        "country":"USA",
+        "description":"A superb house in the city center close to all the attractions.",
+        "price": 2000000,
+        "photo":"https://images.pexels.com/photos/259602/pexels-photo-259602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+        "id": 3,
+        "address":"9012 Main St",
+        "country":"USA",
+        "description":"A superb house in the city center close to all the attractions.",
+        "price": 3000000,
+        "photo":"https://images.pexels.com/photos/259602/pexels-photo-259602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+        "id": 4,
+        "address":"3456 Main St",
+        "country":"USA",
+        "description":"A superb house in the city center close to all the attractions.",
+        "price": 4000000,
+        "photo":"https://images.pexels.com/photos/259602/pexels-photo-259602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+        "id": 5,
+        "address":"7890 Main St",
+        "country":"Kenya",
+        "description":"A superb house in the city center close to all the attractions.",
+        "price": 5000000,
+        "photo":"https://images.pexels.com/photos/259602/pexels-photo-259602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+        "id": 6,
+        "address":"1234 Main St",
+        "country":"Netherlands",
+        "description":"A superb house in the city center close to all the attractions.",
+        "price": 6000000,
+        "photo":"https://images.pexels.com/photos/259602/pexels-photo-259602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+        "id": 7,
+        "address":"5678 Main St",
+        "country":"Switzerland",
+        "description":"A superb house in the city center close to all the attractions.",
+        "price": 7000000,
+        "photo":"https://images.pexels.com/photos/259602/pexels-photo-259602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+        "id": 8,
+        "address":"9012 Main St",
+        "country":"Sweden",
+        "description":"A superb house in the city center close to all the attractions.",
+        "price": 8000000,
+        "photo":"https://images.pexels.com/photos/259602/pexels-photo-259602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+]
